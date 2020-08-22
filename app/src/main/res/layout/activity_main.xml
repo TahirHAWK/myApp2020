@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backg"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <Button
+        android:id="@+id/bTeacherAccess"
+        android:layout_width="211dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/custom_button3"
+        android:text="Login as Teacher"
+        android:textColor="@color/dark_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508" />
+
+    <Button
+        android:id="@+id/bStudentAccess"
+        android:layout_width="206dp"
+        android:layout_height="62dp"
+        android:background="@drawable/custom_button3"
+        android:text="Login as Student"
+        android:textColor="@color/dark_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bTeacherAccess"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="123dp"
+        android:background="@drawable/custom_button2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="Welcome to HSTU Teachers Helping Kit"
+        android:gravity="center"
+        android:textColor="#ffff"
+        app:layout_constraintBottom_toTopOf="@+id/bTeacherAccess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

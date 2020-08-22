@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "9669862363",
+    "firebase_url": "https://teacherhelper-81c3b.firebaseio.com",
+    "project_id": "teacherhelper-81c3b",
+    "storage_bucket": "teacherhelper-81c3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9669862363:android:0d5de4c092baa41a6fbdfe",
+        "android_client_info": {
+          "package_name": "com.example.teacherhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9669862363-0bvtboiv3plhg9m1bhoh6bia8o5ridsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teacherhelper",
+            "certificate_hash": "0a5b2fbd91f3d2150118a7c21eb04fbe4a33bbd3"
+          }
+        },
+        {
+          "client_id": "9669862363-nic6htpo6vqkjsrduvg9o7dioaohum0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr1PdwO4JKg_I-PbLvCV9DGCCyXKnhXzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9669862363-nic6htpo6vqkjsrduvg9o7dioaohum0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
